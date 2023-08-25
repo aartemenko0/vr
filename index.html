@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+      shrink-to-fit="no"
+    />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__menu">
+          <a href="#" onclick="return show('Page1','Page2');" class="logo">
+            <img src="images/logo.svg" alt="#" />
+          </a>
+          <a href="#" class="basket basket--on">
+            <button class="button" type="button">
+              Корзина
+              <img src="images/card.svg" alt="" />
+            </button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div id="Page1" class="card main__content">
+          <div class="row g-2">
+            <div class="col-md-6 main__content-text">
+              <div class="card-body">
+                <h1 class="card-title card-title-main">
+                  Виртуальная реальность без проводов
+                </h1>
+                <p class="card-text card-text-main">
+                  Лучшее, что случалось с виртуальным миром в реальности. Новый
+                  компактный шлем без проводов и дорогих комьютеров.
+                </p>
+                <button class="button button-buy">
+                  Купить
+                  <img src="images/pay.svg" alt="" />
+                </button>
+
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item nav-item-main">
+                          <a
+                            class="nav-link nav-link-main"
+                            aria-current="page"
+                            href="#"
+                            onclick="return show('Page2','Page1');"
+                            >Возможности</a
+                          >
+                        </li>
+                        <li class="nav-item nav-item-main">
+                          <a class="nav-link nav-link-main" href="#"
+                            >Где купить</a
+                          >
+                        </li>
+                        <li class="nav-item nav-item-main">
+                          <a class="nav-link nav-link-main" href="#"
+                            >Доставка</a
+                          >
+                        </li>
+                        <li class="nav-item nav-item-main">
+                          <a class="nav-link nav-link-main">Помощь</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="/images/pic.jpg"
+                class="img-fluid rounded-start main__img"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+
+        <section id="Page2" style="display: none " class="opportunities">
+          <div class="container">
+            <h2 class="opportunities__title">Возможности</h2>
+            <div class="opportunities__inner">
+              <div class="opportunities__item opportunities__item-1">
+                <img
+                  src="images/ppl1.png"
+                  alt=""
+                  class="opportunities__item-img"
+                />
+                <h3 class="opportunities__item-title">Без проводов</h3>
+                <p class="opportunities__item-text">
+                  Уже сейчас вам доступно более сотни игр: от высокобюджетных
+                  ААА-тайтлов до маленьких независимых проектов. Скоро их станет
+                  еще больше.
+                </p>
+              </div>
+
+              <div class="opportunities__item">
+                <img
+                  src="images/ppl2.png"
+                  alt=""
+                  class="opportunities__item-img"
+                />
+                <h3 class="opportunities__item-title">Без компьютера</h3>
+                <p class="opportunities__item-text">
+                  Современным VR-шлемам нужен мощный компьютер, чтобы запускать
+                  игры. Наш шлем запускает игры из облака, поэтому просто
+                  наслаждайтесь.
+                </p>
+              </div>
+
+              <div class="opportunities__item">
+                <img
+                  src="images/ppl3.png"
+                  alt=""
+                  class="opportunities__item-img"
+                />
+                <h3 class="opportunities__item-title">До 10 часов работы</h3>
+                <p class="opportunities__item-text">
+                  Несмотря на компактность и производительность, шлем может
+                  работать до 10 часов — даже, если вы играете в самые
+                  ресурсоемкие игры.
+                </p>
+              </div>
+            </div>
+            <div class="opportunities__inner opportunities__inner-lower">
+              <div
+                class="opportunities__item opportunities__item-lower opportunities__item-1"
+              >
+                <h3 class="opportunities__item-title">Сотни игр</h3>
+                <p class="opportunities__item-text">
+                  Уже сейчас вам доступно более сотни игр: от высокобюджетных
+                  ААА-тайтлов до маленьких независимых проектов. Скоро их станет
+                  еще больше.
+                </p>
+              </div>
+
+              <div class="opportunities__item">
+                <h3 class="opportunities__item-title">Почти даром</h3>
+                <p class="opportunities__item-text">
+                  По сравнению с другими VR-шлемами наш стоит гораздо меньше. И
+                  вы существенно экономите на мощном компьютере.
+                </p>
+              </div>
+
+              <div class="opportunities__item opportunities__item-last">
+                <h3
+                  class="opportunities__item-title opportunities__item-title-last"
+                >
+                  Новости
+                </h3>
+                <p>
+                  <input
+                    class="opportunities__item-placeholder"
+                    placeholder="Эл. почта">
+                </input>
+                </p>
+                <p>
+                  <input
+                    class="opportunities__item-follow"
+                    type="submit"
+                    value="Подписаться"
+                  />
+                </p>
+              </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item nav-item-main">
+                      <a
+                        class="nav-link nav-link-lower"
+                        aria-current="page"
+                        href="#"
+                        onclick="return show('Page2','Page1');"
+                        >Возможности</a
+                      >
+                    </li>
+                    <li class="nav-item nav-item-main">
+                      <a class="nav-link nav-link-lower" href="#">Где купить</a>
+                    </li>
+                    <li class="nav-item nav-item-main">
+                      <a class="nav-link nav-link-lower" href="#">Доставка</a>
+                    </li>
+                    <li class="nav-item nav-item-main">
+                      <a class="nav-link nav-link-lower">Помощь</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="footer"></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 115px;
+  height: 38px;
+  border-radius: 100px;
+  border: none;
+  background-color: #5222D0;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Intro-Light', sans-serif ;
+  font-weight: 400;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.header__menu {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title-main {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab';
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.button-buy {
+  margin-bottom: 120px;
+  width: 270px;
+  height: 80px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.main__content {
+  border: none;
+  height: auto;
+  width: 1340px;
+  justify-content: space-between;
+}
+
+.main__content-text {
+  padding-left: 45px;
+}
+
+.card-text-main {
+  margin-bottom: 30px;
+  font-family: 'Roboto Slab';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.nav-item-main {
+  color: #5222D0;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.nav-link-main {
+  color: #5222D0;
+}
+
+.opportunities {
+  margin-top: 90px;
+}
+
+.opportunities__title {
+  margin-left: 50px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.opportunities__inner {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 34px;
+}
+
+.opportunities__item-1 {
+  border: 1px  solid #BB2247;
+}
+
+.opportunities__item {
+  width: 440px;
+  height: 500px;  
+  padding: 20px 20px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.opportunities__item-img {
+  margin-bottom: 10px;
+  margin-left: 15px;
+  background-color: #EC615B;
+  width: 365px;
+  height: 233px;
+}
+
+.opportunities__item-title {
+  font-size: 25px;
+  margin-left: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.opportunities__item-text {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  font-family: 'Roboto Slab';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.opportunities__inner-lower {
+  height: 220px;
+  margin-bottom: 80px;
+}
+
+.opportunities__item-lower {
+  width: 436px;
+  height: 220px;
+}
+
+.nav-link-lower {
+  color: #000;
+}
+
+.opportunities__item-last {
+  margin-left: 30px;
+  background-color: #EC615B;
+  width: 365px;
+  height: 233px;
+}
+
+.opportunities__item-title-last {
+  margin-left: 0;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; 
+  color:#fff;
+}
+
+.opportunities__item-placeholder {
+  width: 323px;
+  height: 50px;
+  font-family: 'Roboto Slab';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%; 
+}
+
+.opportunities__item-placeholder::placeholder {
+  border:0;outline:0;
+}
+
+.opportunities__item-follow {
+  width: 135px;
+  height: 38px;
+  border: 0;
+  border-radius: 100px;
+  background: #5222D0;
+  color:#fff;
+}
+
+input {
+  border:0;outline:0;
+}
